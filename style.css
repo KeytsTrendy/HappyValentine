@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    color: #d63384;
+}
+
+header {
+    background-color: #ff99c8;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+section {
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color:#d63384;
+}
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe6e6;
+    color: #d63384;
+}
+
+header {
+    background-color: #ff99c8;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+}
+
+/* Love story section */
+#love-story {
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the image to be responsive */
+#love-story-img {
+    width: 100%;
+    max-width: 600px; /* Maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+/* For mobile devices */
+@media (max-width: 600px) {
+    #love-story-img {
+        width: 90%; /* Make image smaller on mobile */
+        max-width: none; /* Remove max-width restriction */}
+}
